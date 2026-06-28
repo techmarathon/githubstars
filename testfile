@@ -1,0 +1,45 @@
+this is test file
+Git & GitHub --Tools
+
+Before git & GitHub --how developers use ,store code?
+
+Version control system --- concept
+
+Centralized vcs --svs
+Distributed vcs ---Git,github,bitbucket,azure repos---so on examples
+
+centralized vcs:
+Dev--develop code --10 developer in one project
+Every developer -code --15 lines(central servers)
+dev--push code --central server(v1.0,v2.0,v2.1)
+dev--pull code --central server(main repository)
+
+
+
+
+git config --global user.email ""
+git config --global user.name ""
+git config --list
+
+
+mkdir githustar
+cd githubstar
+git int
+touch filea fileb
+git add filea fileb
+git commit -m "sample message"
+git push
+
+git status -->to check statusrecognised"
+
+second process --GitHub repo
+
+create GitHub repo
+clone repo using git clone
+cd <clonedgithubrepo>
+touch,add,commit files
+git push
+
+git add
+git commit
+git push
